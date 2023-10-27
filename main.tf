@@ -9,10 +9,3 @@ module "components" {
 }
 
 
-variable "sg" {}
-variable "zone_id" {}
-variable "component" {}
-
-terraform {
-  backend "s3" {}
-}
