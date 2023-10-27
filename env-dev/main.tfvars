@@ -1,8 +1,8 @@
 sg = ["sg-01746b650f07ff560"]
 zone_id = "Z100646411UC397CS7DH3"
 component = {
-  default = {
-    frontend = {
+
+     frontend = {
       name          = "frontend"
       instance_type = "t2.micro"
     }
@@ -47,4 +47,3 @@ component = {
       instance_type = "t2.micro"
     }
   }
-}
